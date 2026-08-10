@@ -1,5 +1,8 @@
 package ex_work;
 
+import java.util.Scanner;
+
+
 public class Ex1_work {
     public static void main(String[] args) {
         
@@ -19,7 +22,20 @@ public class Ex1_work {
 
         //년도:2021 
         //2021년은 평년입니다.
+
+    Scanner sc = new Scanner(System.in);
+    System.out.println("연도:");
+    int year=sc.nextInt();
     
+        
+    }
+
+        
+    }
+        
+    }
+
+
     
     }
     
