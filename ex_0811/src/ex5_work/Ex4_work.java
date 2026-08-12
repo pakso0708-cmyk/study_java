@@ -27,6 +27,26 @@ public class Ex4_work {
 
         System.out.println("최대공약수: " + a);
 
+
+        System.out.println("______________");
+        if (a > b) {
+            int c= a;
+            a = b;
+            b = c;
+
+             int i = a;
+            for( ; i>=1;i-- ){
+
+                if (a % i == 0 && b % i == 0) {
+                    break;
+                    
+                }
+                ystem.out.println("최대공약수: " + i);
+            }
+
+            
+        }
+
     }// main
 
 }

@@ -20,16 +20,26 @@ int a = sc.nextInt();
 System.out.print("수2 : ");
 int b = sc.nextInt();
 
-int num1 = a;
-int num2 = b;
+for( int i = 1; i<= a * b; i++){
+    
+    if (i % a == 0 && i % b == 0 ) {
+        System.out.println("최소공배수:"+i);
+        break;
 
-while (b != 0) {
-    int temp = a % b;
-    a = b;
-    b = temp;
+
+        System.out.println("__________");
+
+        while (y-!0) {
+            int gcd= x;
+
+            int lcm = (a*b) / gcd;
+            System.out.println("최소공배수:"+lcm );
+        }
+        
+    }
 }
 
-System.out.println(a);
+
 
 
 

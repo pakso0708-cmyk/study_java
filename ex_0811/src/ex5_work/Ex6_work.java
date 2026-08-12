@@ -1,5 +1,7 @@
 package ex5_work;
 
+import java.util.Scanner;
+
 public class Ex6_work {
     public static void main(String[] args) {
         
@@ -8,8 +10,25 @@ public class Ex6_work {
 //피보나치수열대로 결과 보여주기
 
 //1 1 2 3 5 8 13 21 34 55 89
+// + =/+
+Scanner sc = new Scanner(System.in);
+int cnt = sc.nextInt();
 
+System.out.print("입력 : ");
 
-    }
+int n1 =1;
+int n2 =0;
+int n3 =0;
+
+for( int i = 0; i < cnt; i++){
+
+n2= n3;
+n3= n1;
+n1= n2+n3;
+System.out.print( n3+ " " );
+
+}
+ 
+}
     
 }
